@@ -1,0 +1,18 @@
+{
+  "name": "translation-worker",
+  "version": "1.0.0",
+  "description": "Worker que consome fila e realiza tradução",
+  "main": "src/worker.js",
+  "scripts": {
+    "start": "node src/worker.js",
+    "dev": "nodemon src/worker.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.0.0",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
